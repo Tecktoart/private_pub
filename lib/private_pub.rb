@@ -5,6 +5,7 @@ require "net/https"
 require "private_pub/faye_extension"
 require "private_pub/engine" if defined? Rails
 require "yaml"
+require 'erb'
 
 module PrivatePub
   class Error < StandardError; end
